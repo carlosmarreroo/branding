@@ -349,14 +349,7 @@ table a, #comments a{background-color:inherit;}
 	#header #quickinfo li{display:block; margin-right:0;}
 }
 
-#imagelightbox
-{
-    position: fixed;
-    z-index: 9999;
- 
-    -ms-touch-action: none;
-    touch-action: none;
-}
+
 
 h1 {
   text-align: center;
