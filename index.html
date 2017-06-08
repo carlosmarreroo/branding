@@ -91,7 +91,7 @@
           <ul class="nospace clear">
 		  
 		  
-            <li class="one_quarter first"><a href="#"><img src="../images/demo/gallery/branding/1.jpg" alt=""></a></li>
+            <li class="one_quarter first"><a href="#"><img src="picture.jpg" id="imagelightbox" /></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/branding/2.jpg" alt=""></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/branding/3.jpg" alt=""></a></li>
             <li class="one_quarter"><a href="#"><img src="../images/demo/gallery/branding/4.jpg" alt=""></a></li>
@@ -183,5 +183,13 @@
 <!-- IE9 Placeholder Support -->
 <script src="../layout/scripts/jquery.placeholder.min.js"></script>
 <!-- / IE9 Placeholder Support -->
+<script src="jquery.js"></script>
+<script src="imagelightbox.js"></script>
+<script>
+    $( function()
+    {
+        $( 'a' ).imageLightbox();
+    });
+</script>
 </body>
 </html>
